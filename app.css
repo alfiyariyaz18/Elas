@@ -1,0 +1,46 @@
+.section-d {
+  opacity: 0;
+  transform: translateY(-50px);
+  transition: all 0.6s ease-out;
+}
+
+.section-d.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.section-u {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 1s ease-out;
+}
+
+
+.section-u.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+.section-l {
+  opacity: 0;
+  transform: translateX(-50px);
+  transition: all 1s ease-out;
+}
+
+.section-l.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+
+.section-r {
+  opacity: 0;
+  transform: translateX(50px);
+  transition: all 1s ease-out;
+}
+
+.section-r.visible {
+  opacity: 1;
+  transform: translateX(0);
+}

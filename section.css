@@ -1,0 +1,263 @@
+.about-page-background{
+    background-image: url(./img/giammarco-boscaro-eWpBNXRHfTI-unsplash.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    background-attachment: fixed;
+}
+
+.service-page-background{
+    background-image: url(./img/giammarco-boscaro-zeH-ljawHtg-unsplash.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    background-attachment: fixed;
+}
+
+.background-a-new{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.section-margin{
+    margin-top: 80px;
+}
+
+.about-page-section-background{
+    /* background-color: #d3d3d3; */
+    padding: 80px  50px;
+}
+
+.about-page-section{
+    background-image: url(./img/cameron-stewart-jo9eYA750V0-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-page-section-2{
+    background-image: url(./img/adrien-delforge-0LUqdizULdY-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.contact-button-team{
+    display: inline-block;
+    border: 2px solid #132c52;
+    text-decoration: none;
+    padding: 10px 30px;
+    color: rgb(255, 255, 255);
+    font-size: 1.3vw;
+    font-family: "Poppins", sans-serif;
+    transition: all 0.5s ease-in-out;
+    margin-top: 20px;
+}
+
+.contact-button{
+    display: inline-block;
+    border: 2px solid rgb(19, 44, 82);
+    text-decoration: none;
+    padding: 10px 30px;
+    color: rgb(19, 44, 82);
+    font-size: 1.3vw;
+    font-family: "Poppins", sans-serif;
+    transition: all 0.5s ease-in-out;
+    margin-top: 20px;
+}
+
+.contact-button-nav{
+    display: inline-block;
+    border: 2px solid rgb(19, 44, 82);
+    text-decoration: none;
+    padding: 10px 30px;
+    color: rgb(19, 44, 82);
+    font-size: 1.3vw;
+    font-family: "Poppins", sans-serif;
+    transition: all 0.5s ease-in-out;
+    /* margin-top: 20px; */
+}
+
+.contact-button:hover, .contact-button-team:hover, .contact-button-nav:hover{
+    background-color: rgb(19, 44, 82);
+    color: #fff;
+}
+
+
+/* Team */
+
+.team-page-background{
+    background-image: url(./img/team-page-background-image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    background-attachment: fixed;
+}
+
+.team-page-list{
+    padding-left: 0;
+    margin-bottom: 0px;
+}
+
+.team-page-list li{
+    list-style: none;
+}
+
+.team-page-section-background{
+    background-image: url(./img/team-page-section-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0px;
+    background-attachment: fixed;
+}
+
+.contact-page-background{
+    background-image: url(./img/sean-pollock-PhYq704ffdA-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    background-attachment: fixed;
+}
+
+.contact-page-section-background{
+    background-image: url(./img/contact-page-section-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-attachment: fixed;
+}
+
+.contact-page-list{
+    padding-left: 0px;
+    margin-bottom: 0px;
+}
+
+.contact-page-list li{
+    list-style: none;
+    margin-bottom: 30px;
+    display: inline-block;
+}
+
+.contact-page-section{
+    background-color: rgb(226, 226, 226);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.contact-page-section-2{
+    padding: 0px 50px;
+}
+
+
+/* Sevices */
+
+.services-tag-heading{
+    font-size: 1.4vw;
+    font-family: 'Vollkorn', serif;
+    font-weight: bold;
+}
+
+.services-items{
+    padding-top:5px;
+    padding-bottom: 5px;
+    padding-left:5px;
+    border-right:1px solid #b8babb;
+    box-shadow: 5px 5px 5px gainsboro;
+    transition:all 0.5s ease-in-out; 
+}
+
+#litigation{
+    border-bottom:1px solid #b8babb;
+}
+
+.services-items a{
+    font-size: 2vw;
+    text-decoration: none;
+    color: #0B6292;
+    text-transform: uppercase;
+}
+
+.services-items a:hover{
+    color:#0B6292;
+}
+
+.services-items:hover{
+    transform:scale(1.02);
+    background-color:#e7d8a7;
+    box-shadow: none;
+}
+
+.services-section-background{
+    background: url(./img/dmitrij-paskevic-YjVa-F9P9kk-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-attachment: fixed;
+}
+
+/* MEDIA QUERY */
+@media (max-width:576px){
+    .about-page-background, .service-page-background, .team-page-background, .contact-page-background{
+        height: 80vh;
+    }
+
+    .about-page-section-background{
+        padding: 100px 10px;
+    }
+
+    .contact-button, .contact-button-team{
+        font-size: 4vw;
+    }
+
+    .services-section-background{
+        padding: 100px 0px;
+    }
+
+    .section-margin{
+        margin-top: 50px;
+    }
+
+    .contact-page-section{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .contact-page-section-2{
+        padding: 0px 20px;
+    }
+}
+
+@media (min-width:577px) and (max-width:767px){
+
+}
+
+
+@media (min-width:768px) and (max-width:991px){
+
+}
+
+
+@media (min-width:992px) and (max-width:1199px){
+
+}  
+
+
+@media (min-width:1200px) and (max-width:1399px){
+
+}
+
+
+@media (min-width:1400px){
+
+}
+
